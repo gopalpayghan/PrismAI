@@ -1,26 +1,16 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "quickai-client/package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "dist"
-      }
-    },
-    {
-      "src": "quickai-server/server.js",
-      "use": "@vercel/node"
-    }
-  ],
+  "buildCommand": "cd quickai-client && npm install && npm run build",
+  "outputDirectory": "quickai-client/dist",
+  "installCommand": "npm install",
+  "devCommand": "cd quickai-client && npm run dev",
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "quickai-server/server.js"
+      "dest": "/quickai-server/server.js"
     },
     {
       "src": "/(.*)",
-      "dest": "quickai-client/dist/$1"
+      "dest": "/quickai-client/dist/$1"
     }
   ]
 }
