@@ -23,7 +23,7 @@ PrismAI is a powerful AI-powered platform designed to transform your content cre
 - **Backend**: Node.js, Express.js
 - **Database**: PostgreSQL (Neon)
 - **Authentication**: Clerk
-- **AI Integration**: Bytez AI, OpenAI APIs
+- **AI Integration**: ClipDrop AI, Gemini AI
 - **Image Storage**: Cloudinary
 - **Hosting**: Vercel
 
@@ -100,8 +100,8 @@ CLOUDINARY_API_KEY=your_cloudinary_api_key
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 
 # AI APIs
-BYTEZ_API_KEY=your_bytez_api_key_here
-OPENAI_API_KEY=your_openai_api_key_here
+CLIPDROP_API_KEY=your_clipdrop_api_key_here
+GEMINI_API_KEY=your_gemini_api_key_here
 
 # CORS Configuration
 ALLOWED_ORIGINS=http://localhost:5173,http://localhost:5174
@@ -127,15 +127,15 @@ ALLOWED_ORIGINS=http://localhost:5173,http://localhost:5174
 1. Visit [Cloudinary.com](https://cloudinary.com) and create an account
 2. Get your `CLOUDINARY_CLOUD_NAME`, `CLOUDINARY_API_KEY`, and `CLOUDINARY_API_SECRET`
 
-#### **Bytez AI** (Required for image generation)
+#### **ClipDrop AI** (Required for image generation)
 
-1. Visit [Bytez AI](https://bytez.ai) and create an account
-2. Get your `BYTEZ_API_KEY`
+1. Visit [ClipDrop AI](https://clipdrop.co/apis) and create an account
+2. Get your `CLIPDROP_API_KEY`
 
-#### **OpenAI** (Optional - for additional AI features)
+#### **Gemini AI** (Required for text generation)
 
-1. Visit [OpenAI Platform](https://platform.openai.com) and create an account
-2. Get your `OPENAI_API_KEY`
+1. Visit [Google AI Studio](https://aistudio.google.com) and create an account
+2. Get your `GEMINI_API_KEY`
 
 ### 5. Database Setup
 
