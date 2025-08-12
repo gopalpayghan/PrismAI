@@ -20,7 +20,4 @@ app.get('/api', (req, res) => res.send('PrismAI Backend API is Live!'))
 app.use('/api/ai', requireAuth(), aiRouter)
 app.use('/api/user', requireAuth(), userRouter)
 
-// Export the Express app as a serverless function
 export default app
-    
-})
