@@ -1,6 +1,6 @@
 # PrismAI 🚀
 
-**Live Demo**: [https://prismai-frontend.onrender.com](https://prismai-frontend.onrender.com)
+**Live Demo**: []()
 
 PrismAI is a powerful AI-powered platform designed to transform your content creation process. With a suite of premium AI tools, it helps you write engaging articles, generate stunning images, and streamline your workflow—all in one place.
 
@@ -263,7 +263,7 @@ npx kill-port 5173
 
 ## 🔗 Links & Contact
 
-- 🌐 **Live Demo**: [https://prismai-frontend.onrender.com](https://prismai-frontend.onrender.com)
+- 🌐 **Live Demo**: []()
 - 🐙 **GitHub Repository**: [https://github.com/gopalpayghan/PrismAI]([https://github.com/YOUR_USERNAME/PrismAI](https://github.com/gopalpayghan/PrismAI.git))
 - 📧 **Contact**: [gopaldadapayghan@gmail.com](mailto:gopaldadapayghan@gmail.com)
 - 💼 **LinkedIn**: [Gopal Payghan](https://www.linkedin.com/in/gopalpayghan/)
