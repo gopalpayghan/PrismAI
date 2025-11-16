@@ -79,7 +79,7 @@ const Navbar = () => {
   const navItems = [
     { name: "Home", path: "/" },
     { name: "Pricing", path: "/#pricing" },
-    { name: "Creator", path: "/creator" },
+    // { name: "Creator", path: "/creator" },
   ];
 
   const handleNavClick = (path) => {
